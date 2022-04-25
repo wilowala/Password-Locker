@@ -19,3 +19,7 @@ class UserCredentials:
         self.myAccount = myAccount        
         self.u_name = u_name
         self.l_password = l_password
+
+    def saveCredentials(self):
+        
+        UserCredentials.credentials.append(self)
