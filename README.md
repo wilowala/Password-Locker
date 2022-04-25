@@ -17,10 +17,10 @@ A series om MS projects that uses Python to create an application that manages s
 
  ##### Run
  * Open the cloned file in the terminal and run:
-    $ chmod +x launch.py
-    $ ./launch.py
+    * $ chmod +x launch.py
+    * $ ./launch.py
  * Try out the tests using:
-    $ python3 test.py
+    * $ python3 test.py
 
 ### Technologies used
  * Python v3.8.10
