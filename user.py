@@ -10,3 +10,7 @@ class UserAccount:
         self.u_name = u_name 
         self.u_email = u_email
         self.l_password = l_password 
+    
+    def saveUserAcc(self):
+        
+        UserAccount.userAccounts.append(self)
