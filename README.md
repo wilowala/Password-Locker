@@ -12,8 +12,11 @@ A series om MS projects that uses Python to create an application that manages s
 
  ##### Clone
  * Launch the terminal on your PC
- * Run the following command: git clone https://github.com/wilowala/Password-Locker.git
- * Navigate to the app directory using: cd Password-Locker; and then open it using your favorite code editor.
+ * Run the following command: 
+    * git clone https://github.com/wilowala/Password-Locker.git
+ * Navigate to the app directory using: 
+    * cd Password-Locker 
+ * Open your favorite code editor.
 
  ##### Run
  * Open the cloned file in the terminal and run:
