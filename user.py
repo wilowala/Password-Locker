@@ -12,5 +12,10 @@ class UserAccount:
         self.l_password = l_password 
     
     def saveUserAcc(self):
-        
+
         UserAccount.userAccounts.append(self)
+
+    def deleteUserAccount(self):
+        
+        UserAccount.userAccounts.remove(self)
+    
