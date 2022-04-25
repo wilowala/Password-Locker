@@ -28,3 +28,27 @@ def saveUserCredential(userCredential):
 
     userCredential.saveCredentials()
 
+def delCredential(credentials):
+
+    credentials.deleteUserCred()
+
+def displayUserCredentials():
+
+    return UserCredentials.displayUserCredentials()
+
+def findUserCredentials(userAccount):
+
+    return UserCredentials.findUsercredential(userAccount)
+
+def doCredentialsExist(account):
+
+    return UserCredentials.doCredentialsExist(account)
+
+def copyPass(userAccount):
+
+    return UserCredentials.copyLoginPass(userAccount)
+
+def systemGeneratedPassword():
+    
+    autoGenRandPass = UserCredentials.genRandPass()
+    return autoGenRandPass
