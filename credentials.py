@@ -27,3 +27,8 @@ class UserCredentials:
     def deleteUserCred(self):
         
         UserCredentials.credentials.remove(self)
+
+    def genRandPass(passwordlen=8):
+        
+        userPassword = string.ascii_letters  + string.digits
+        return "".join(random.choice(userPassword)for char in range(passwordlen))
