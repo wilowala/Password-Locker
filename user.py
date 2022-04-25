@@ -19,3 +19,7 @@ class UserAccount:
         
         UserAccount.userAccounts.remove(self)
     
+     @classmethod   
+    def displayUser(cls):
+        
+        return cls.userAccounts
