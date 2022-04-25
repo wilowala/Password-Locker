@@ -50,5 +50,16 @@ class UserCredentials:
             if item.myAccount == account:
 
                 return True
-                
+
         return False
+
+    @classmethod
+    def displayUserCredentials(cls):
+
+        return cls.credentials
+
+    @classmethod
+    def copyLoginPass(cls,userAccount):
+        
+        credFound = UserCredentials.findUsercredential(userAccount)
+        pyperclip.copy(credFound.login_pass)
