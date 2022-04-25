@@ -39,7 +39,16 @@ class UserCredentials:
         for userCredential in cls.credentials:
 
             if userCredential.myAccount == userAccount:
-                
+
                 return userCredential
 
-    
+    @classmethod
+    def doCredentialsExist(cls,account):
+        
+        for item in cls.credentials:
+
+            if item.myAccount == account:
+
+                return True
+                
+        return False
