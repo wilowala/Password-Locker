@@ -15,7 +15,7 @@ class UserCredentials:
         return _user
 
     def __init__(self,myAccount, u_name, l_password):
-        '
+        
         self.myAccount = myAccount        
         self.u_name = u_name
         self.l_password = l_password
@@ -60,6 +60,6 @@ class UserCredentials:
 
     @classmethod
     def copyLoginPass(cls,userAccount):
-        
+
         credFound = UserCredentials.findUsercredential(userAccount)
         pyperclip.copy(credFound.login_pass)
