@@ -32,3 +32,14 @@ class UserCredentials:
         
         userPassword = string.ascii_letters  + string.digits
         return "".join(random.choice(userPassword)for char in range(passwordlen))
+
+    @classmethod
+    def findUsercredential(cls,userAccount):
+        
+        for userCredential in cls.credentials:
+
+            if userCredential.myAccount == userAccount:
+                
+                return userCredential
+
+    
