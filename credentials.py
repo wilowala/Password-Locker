@@ -23,3 +23,7 @@ class UserCredentials:
     def saveCredentials(self):
         
         UserCredentials.credentials.append(self)
+
+    def deleteUserCred(self):
+        
+        UserCredentials.credentials.remove(self)
